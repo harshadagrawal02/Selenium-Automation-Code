@@ -16,6 +16,8 @@ public class Main {
         System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+
 
 		 driver.get("https://in.bookmyshow.com/explore/home/");
 		 
